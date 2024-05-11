@@ -1,0 +1,447 @@
+@media only screen and (max-width:600px) {
+    * {
+        padding: 0px;
+        margin: 0px;
+        box-sizing: border-box;
+    }
+
+    .main {
+        height: 100%;
+        width: 100%;
+        /* border: 2px solid black; */
+        background-color: #f1f1f1;
+
+    }
+
+    .head {
+        height: 135px;
+        width: 100%;
+        border: 2px solid maroon;
+    }
+
+    .head h2 {
+        border: 2px solid mediumblue;
+        text-align: center;
+        text-transform: uppercase;
+        font-size: 30px;
+        padding: 8px 0px;
+    }
+
+    .head p {
+
+        text-align: center;
+        border: 2px solid lawngreen;
+        padding: 8px 0px;
+        font-size: 17px;
+    }
+
+    .head span {
+        background-color: black;
+        color: beige;
+        padding: 3px 7px;
+    }
+
+    /*----------------------------------------------- Title box ---------------------------------------------------*/
+    .wer {
+        /* height: 97%; */
+        width: 100%;
+        border: 2px solid mediumorchid;
+        display: flex;
+        /* margin-bottom: 20px; */
+
+    }
+
+    .wer1-1 {
+        /* height: 100%; */
+        width: 60%;
+        border: 2px slateblue solid;
+        padding-left: 25px;
+    }
+
+    .w3 {
+        /* height: 540px; */
+        width: 100%;
+        /* margin-bottom: 20px; */
+        border: 2px salmon solid;
+        background-color: #fff;
+        box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2), 0 4px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+
+    .w3 img {
+        height: 250px;
+        width: 100%;
+    }
+
+    .w3 h4 {
+        width: 100%;
+        text-transform: uppercase;
+        font-size: 18px;
+        font-family: "Raleway", sans-serif;
+        padding-left: 10px;
+        padding-top: 5px;
+        border: 2px saddlebrown solid;
+    }
+
+    .pin {
+        margin-top: 10px;
+        font-family: "Segoe UI", Arial, sans-serif;
+        padding-left: 12px;
+    }
+
+    .w3 span {
+        /* word-spacing: 5px; */
+        color: #9e9b9b;
+    }
+
+    .wer1-2 {
+
+        width: 100%;
+        border: 2px seagreen solid;
+        text-align: justify;
+        margin-top: 25px;
+        padding: 0px 10px;
+        /* margin-bottom: 20px; */
+    }
+
+    .wer1-3 {
+        width: 100%;
+        display: flex;
+        border: 2px salmon solid;
+        margin-top: 25px;
+        padding-left: 9px;
+        justify-content: space-between;
+    }
+
+    .w3-2 {
+
+        width: 100px;
+        border: 1px #9e9b9b solid;
+        font-size: 12px;
+        font-weight: bold;
+        background-color: #fff;
+    }
+
+    .w3-2:hover {
+        background-color: #c0baba;
+        cursor: pointer;
+    }
+
+    .wer1-4 {
+        border: 2px solid seagreen;
+        padding: 8px 5px;
+        word-spacing: 5px;
+    }
+
+    .wer1-4 span {
+        padding: 2px 7px;
+        color: #fff;
+        background-color: black;
+        word-spacing: 5px;
+    }
+
+    /*------------------------------------------------- Blog  box--------------------------------------------------- */
+
+    /* second image  */
+    .wex {
+
+        width: 100%;
+        border: 2px darkorange solid;
+        margin-top: 40px;
+    }
+
+    .wex1-1 {
+        /* height: 540px; */
+        width: 100%;
+        border: 2px salmon solid;
+        background-color: #fff;
+        box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2), 0 4px 20px 0 rgba(0, 0, 0, 0.19);
+
+    }
+
+    .wex1-2 img {
+        height: 250px;
+        width: 100%;
+    }
+
+    .wex1-3 {
+
+        width: 100%;
+        border: 2px magenta solid;
+        margin: 10px 0px;
+    }
+
+    .wex1-3 h4 {
+        width: 100%;
+        border: 2px maroon solid;
+        text-transform: uppercase;
+        padding: 2px 10px;
+        font-family: "Segoe UI", Arial, sans-serif;
+        font-weight: bold;
+        font-size: 24px;
+    }
+
+    .wex1-3 p {
+        width: 100%;
+        border: 2px saddlebrown solid;
+        margin-top: 10px;
+        text-transform: capitalize;
+        font-family: "Segoe UI", Arial, sans-serif;
+        font-size: 18px;
+        font-weight: 400;
+        padding-left: 10px;
+    }
+
+    .wex1-3 span {
+        color: #c0baba;
+    }
+
+    .wex1-4 {
+
+        width: 100%;
+        border: 2px seagreen solid;
+        text-align: justify;
+        padding: 0px 10px;
+        margin-top: 15px;
+
+
+    }
+
+    .wex1-5 {
+        border: 2px darkgreen solid;
+        display: flex;
+        margin-top: 15px;
+        justify-content: space-between;
+
+    }
+
+    .wex1-5 button {
+
+        width: 100px;
+        border: 1px #9e9b9b solid;
+        margin-left: 10px;
+        font-size: 12px;
+        font-weight: bold;
+        background-color: #fff;
+    }
+
+    .wex1-6:hover {
+        background-color: #9e9b9b;
+        cursor: pointer;
+    }
+
+    .wex1-7 {
+
+        width: 110px;
+        border: 2px solid dodgerblue;
+        padding: 8px 5px;
+
+
+    }
+
+    .wex1-7 span {
+        color: #fff;
+        background-color: black;
+        padding: 1px 5px;
+        border-radius: 50%;
+        word-spacing: 5px;
+    }
+
+    /*-----------------------------------------My Name--------------------------------------------- */
+
+    .wood {
+        /* height: 400px; */
+        width: 35%;
+        border: 2px saddlebrown solid;
+        margin-left: 28px;
+        box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2), 0 4px 20px 0 rgba(0, 0, 0, 0.19);
+        background-color: #fff;
+    }
+
+    .wood1-1 img {
+        width: 100%;
+        background-position: center center;
+
+    }
+
+    .wood1-2 h4 {
+        width: 100%;
+        border: 2px saddlebrown solid;
+        padding: 5px 10px;
+        text-transform: capitalize;
+        font-weight: bold;
+        font-size: 20px;
+        font-family: "Raleway", sans-serif;
+    }
+
+    .wood1-2 p {
+        width: 100%;
+        border: 2px solid sienna;
+        margin-top: 8px;
+        padding: 5px 10px;
+        text-align: justify;
+
+
+    }
+
+    /* -----------------------------------------POPULAR Posts--------------------------------------------------- */
+    .place {
+        /* height: 98%; */
+        width: 100%;
+        border: 2px solid deeppink;
+        margin-top: 50px;
+        box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2), 0 4px 20px 0 rgba(0, 0, 0, 0.19);
+
+    }
+
+    .place h4 {
+        /* height: 70px; */
+        width: 100%;
+        border: 2px solid chartreuse;
+        font-family: "Raleway", sans-serif;
+        font-weight: 200;
+        font-size: 18px;
+        text-transform: capitalize;
+        padding: 20px 10px;
+        background-color: #f1f1f1 !important;
+    }
+
+    .place1-1 {
+        /* height: 82%; */
+        width: 100%;
+        background-color: #fff;
+        border: 2px solid black;
+    }
+
+    .place1-2 {
+        display: flex;
+        /* height: 81px; */
+        width: 100%;
+        border-bottom: 1px solid #dfd9d9;
+    }
+
+    .hit1 {
+        /* height: 50px; */
+        width: 100%;
+        border: 2px solid darkblue;
+        margin: 10px 5px;
+        padding: 5px 0px;
+        font-size: 18px;
+        text-transform: capitalize;
+    }
+
+    .place1-2:hover {
+        background-color: #f1f1f1;
+    }
+
+    .hit img {
+        /* height: 50px; */
+        width: 50px;
+        margin: 12px 10px;
+    }
+
+    /*---------------------------------------------------Tags---------------------------------------------------------*/
+    .we4 {
+        /* height: 50%; */
+        width: 100%;
+        border: 2px solid blueviolet;
+        margin-top: 25px;
+        background-color: #fff;
+        box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2), 0 4px 20px 0 rgba(0, 0, 0, 0.19);
+
+    }
+
+    .we4-1 {
+        /* height: 70px; */
+        width: 100%;
+        border: 2px solid maroon;
+        padding: 20px 20px;
+        font-family: Verdana, sans-serif;
+        font-size: 15px;
+        background-color: #f1f1f1 !important;
+    }
+
+    .we4-2 {
+        margin: 10px 0px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .we4-2 span {
+        background-color: #f1f1f1;
+        border: 2px solid navy;
+        margin: 5px 0px;
+        padding: 1px 7px;
+        margin-left: 15px;
+        font-size: 15px;
+        text-align: center;
+    }
+
+    .we4-2 span:nth-child(1) {
+        background-color: black;
+        color: white;
+    }
+
+
+    /*---------------------------------------------------------Button-----------------------------------------------------*/
+    .footer {
+        /* height: 200px; */
+        width: 100%;
+        border: 2px solid darkgreen;
+        margin-top: 60px;
+        background-color: #616161 !important;
+        color: #fff !important;
+
+    }
+
+    .footer1-1 {
+        /* height: 60px; */
+        width: 100%;
+        display: flex;
+        padding: 10px 10px;
+        border: 2px solid red;
+    }
+
+    .footer1-2 button {
+        height: 50px;
+        width: 100px;
+        border: 2px solid rgb(190, 54, 54);
+        margin-top: 40px;
+        margin-left: 10px;
+    }
+
+    .footer1-2 {
+        opacity: 0.4;
+    }
+
+    .footer1-2:hover button {
+        background-color: #000 !important;
+        color: #fff !important;
+        cursor: not-allowed;
+    }
+
+    .footer1-3 button {
+        height: 50px;
+        width: 100px;
+        margin-left: 10px;
+        margin-top: 40px;
+        background-color: #000;
+        color: #fff !important;
+    }
+
+    .footer1-3:hover button {
+        background-color: #a7a5a5;
+        color: #000 !important;
+        cursor: pointer;
+    }
+
+    .by {
+        margin-top: 40px;
+        margin-left: 22px;
+        margin-bottom: 30px;
+        font-size: 18px;
+    }
+
+    .by a {
+        color: #fff;
+    }
+}
